@@ -10,4 +10,4 @@ linkedInURL = https://www.linkedin.com/in/wihlarko-prasdegdho/
 comments = no
 
 [servers.ghpages]
-target = ghpages://wihlarkop/wihlarkop.github.io
+target = ghpages+https://wihlarkop/wihlarkop.github.io
