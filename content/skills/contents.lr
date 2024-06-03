@@ -1,0 +1,84 @@
+_model: page
+---
+title: Skills
+---
+body:
+
+<div class="my-auto">
+    <div class="subheading mb-3">Programming Languages</div>
+    <ul class="list-inline list-icons">
+        <li class="list-inline-item">
+            <i class="devicon-python-plain-wordmark"></i>
+        </li>
+        <li class="list-inline-item">
+            <i class="devicon-go-original-wordmark colored"></i>
+        </li>
+        <li class="list-inline-item">
+            <i class="devicon-javascript-plain colored"></i>
+        </li>
+        <li class="list-inline-item">
+            <i class="devicon-nodejs-plain-wordmark"></i>
+        </li>
+        <li class="list-inline-item">
+            <i class="devicon-rust-original colored"></i>
+        </li>
+    </ul>
+
+    <div class="subheading mb-3">Web Framework</div>
+    <ul class="list-inline list-icons">
+        <li class="list-inline-item">
+            <i class="devicon-fastapi-plain-wordmark"></i>
+        </li>
+        <li class="list-inline-item">
+            <i class="devicon-django-plain-wordmark colored"></i>
+        </li>
+        <li class="list-inline-item">
+            <i class="devicon-djangorest-plain colored"></i>
+        </li>
+        <li class="list-inline-item">
+            <i class="devicon-flask-original-wordmark colored"></i>
+        </li>
+    </ul>
+
+    <div class="subheading mb-3">Database</div>
+    <ul class="list-inline list-icons">
+        <li class="list-inline-item">
+            <i class="devicon-postgresql-plain"></i>
+        </li>
+        <li class="list-inline-item">
+            <i class="devicon-mongodb-plain-wordmark colored"></i>
+        </li>
+        <li class="list-inline-item">
+            <i class="devicon-sqlite-plain-wordmark colored"></i>
+        </li>
+        <li class="list-inline-item">
+            <i class="devicon-mariadb-original-wordmark colored"></i>
+        </li>
+    </ul>
+
+    <div class="subheading mb-3">Tools</div>
+    <ul class="list-inline list-icons">
+        <li class="list-inline-item">
+            <i class="devicon-git-plain-wordmark"></i>
+        </li>
+        <li class="list-inline-item">
+            <i class="devicon-docker-plain colored"></i>
+        </li>
+        <li class="list-inline-item">
+            <i class="devicon-pycharm-plain-wordmark"></i>
+        </li>
+        <li class="list-inline-item">
+            <i class="devicon-goland-plain-wordmark"></i>
+        </li>
+        <li class="list-inline-item">
+            <i class="devicon-vscode-plain-wordmark"></i>
+        </li>
+        <li class="list-inline-item">
+            <i class="devicon-postman-plain-wordmark colored"></i>
+        </li>
+    </ul>
+</div>
+---
+meta_description: Skills
+---
+meta_keywords: Skills

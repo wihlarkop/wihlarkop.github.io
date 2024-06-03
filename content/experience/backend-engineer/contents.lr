@@ -1,0 +1,35 @@
+role: Backend Engineer
+---
+city: Jakarta
+---
+company: eFishery
+---
+country: Indonesia
+---
+description:
+AIoT ML/AI Team: :
+- Establishing best practices for the ML/AI team to ensure efficient and high-quality project development.
+- Creating boilerplate patterns and folder structures aimed at simplifying project development and enhancing consistency.
+- Developing an API in collaboration with the data science team, resulting in an API that can be used by other teams.
+- Producing standard documentation that has been adopted and utilized by ML/AI engineers in their daily activities.
+- Creating a global library that reduces code duplication and promotes reusable code.
+- Responsible for code reviews and providing clean code guidance to ensure overall code quality and ease of continuation for other engineers.
+
+AIoT Cultivation Team: :
+- Efforts to improve the fish pond lifecycle tracking system benefit fish and shrimp farmers in managing their ponds.
+- Implementing data backfill automation has a positive impact on the organization of the database structure and enhances its cleanliness.
+
+eFarm Team :
+- Pioneering architecture and database design pave the way for the scalability of new market services.
+- Streamlining service integration with internal APIs results in data integration clarity from the core.
+- Implementing best practices across the team helps reduce software bugs and makes the code more understandable for other developers.
+
+eFresh Team :
+- Database optimization results in performance improvement, reduced response times, and enhanced user experience.
+- Data flow and processing performance improve thanks to efficient Django integration through Rest API.
+- The Event-Driven architecture enhances system resilience, reduces downtime, and enables flexible event handling.
+---
+employment_type: Fulltime
+---
+start_date: 2021-06-22
+---

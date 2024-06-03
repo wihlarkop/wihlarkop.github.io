@@ -1,0 +1,42 @@
+<ul class="list-inline list-social-icons mb-0">
+    {% if config.THEME_SETTINGS.twitterID %}
+    <li class="list-inline-item">
+        <a href="https://twitter.com/{{ config.THEME_SETTINGS.twitterID }}" target="_blank">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+            </span>
+        </a>
+    </li>
+    {% endif %}
+    {% if config.THEME_SETTINGS.githubID %}
+    <li class="list-inline-item">
+        <a href="https://github.com/{{ config.THEME_SETTINGS.githubID }}" target="_blank">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+            </span>
+        </a>
+    </li>
+    {% endif %}
+    {% if config.THEME_SETTINGS.linkedInURL %}
+    <li class="list-inline-item">
+        <a href="{{ config.THEME_SETTINGS.linkedInURL }}" target="_blank">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+            </span>
+        </a>
+    </li>
+    {% endif %}
+        {% if config.THEME_SETTINGS.email %}
+    <li class="list-inline-item">
+        <a href="{{ config.THEME_SETTINGS.email }}" target="_blank">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+            </span>
+        </a>
+    </li>
+    {% endif %}
+</ul>

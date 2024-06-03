@@ -1,0 +1,22 @@
+{% macro render_experience_post(post, from_index=false) %}
+<div class="resume-item d-flex flex-fcolumn flex-md-row mb-5">
+    <div class="resume-content mr-auto">
+        {% if from_index %}
+        <h3 class="mb-0">{{ post.role }}</h3>
+        <div class="subheading mb-3">{{ post.company }} - {{ post.employment_type }}</div>
+        <div class="subheading mb-3">{{ post.city }}, {{ post.country }}</div>
+        <p>{{ post.description }}</p>
+        {% else %}
+        <h3 class="mb-0">{{ post.role }}</h3>
+        <div class="subheading mb-3">{{ post.company }} - {{ post.employment_type }}</div>
+        <div class="subheading mb-3">{{ post.city }}, {{ post.country }}</div>
+        <p>{{ post.description }}</p>
+        {% endif %}
+    </div>
+    <div class="resume-date text-md-right">
+    <span class="text-primary">
+      {{ post.start_date|dateformat('MMMM YYYY') }} - {% if post.end_date %} {{ post.end_date|dateformat('MMMM YYYY') }} {% else %} Current {% endif %}
+    </span>
+    </div>
+</div>
+{% endmacro %}
