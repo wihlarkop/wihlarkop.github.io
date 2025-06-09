@@ -117,8 +117,11 @@ section:nth-child(even) {
 }
 
 .profile-img {
-    border-radius: 50%;
-    max-width: 250px;
+    width: 250px; /* Menetapkan lebar tetap untuk gambar */
+    height: 250px; /* Menetapkan tinggi yang sama dengan lebar untuk memastikan lingkaran */
+    border-radius: 50%; /* Membuat bentuk lingkaran */
+    object-fit: cover; /* Memastikan gambar mengisi seluruh area lingkaran tanpa distorsi, memotong bagian yang tidak perlu */
+    overflow: hidden; /* Menyembunyikan bagian gambar yang berada di luar bentuk lingkaran */
     border: 5px solid var(--border-color);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
