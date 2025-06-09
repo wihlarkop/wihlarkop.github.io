@@ -643,6 +643,31 @@ section:nth-child(even) {
 }
 
 
+.profile-img-fallback {
+    width: 15rem; /* Ukuran default lebar */
+    height: 15rem; /* Ukuran default tinggi (harus sama dengan lebar untuk lingkaran) */
+    border-radius: 50%; /* Membuat elemen menjadi lingkaran */
+    background-color: var(--primary-color); /* Warna latar belakang untuk inisial */
+    color: var(--background-color); /* Warna teks inisial */
+    display: flex; /* Menggunakan flexbox untuk memusatkan inisial */
+    align-items: center; /* Pusatkan inisial secara vertikal */
+    justify-content: center; /* Pusatkan inisial secara horizontal */
+    font-weight: 700; /* Ketebalan font untuk inisial */
+    margin: 0 auto; /* Pusatkan secara horizontal di dalam kolom */
+    border: 70px solid var(--primary-color); /* Menyesuaikan border gambar profil */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Menyesuaikan shadow gambar profil */
+
+    /* Penting: Pastikan responsifitas dan menjaga bentuk lingkaran */
+    max-width: 100%; /* Akan mengecilkan lebar jika kontainer lebih kecil dari 15rem */
+    height: auto; /* Sangat penting: Memungkinkan tinggi untuk ikut menyesuaikan secara proporsional dengan lebar yang menyusut, menjaga bentuk lingkaran */
+}
+
+.profile-img-fallback span {
+    font-size: 5rem; /* Ukuran font default untuk inisial */
+    line-height: 1; /* Kritis: Menghilangkan spasi ekstra di atas/bawah teks untuk pemusatan yang akurat */
+    display: block; /* Memastikan span berperilaku seperti elemen blok untuk pemusatan yang tepat */
+}
+
 /* Footer */
 footer {
     text-align: center;
@@ -694,6 +719,15 @@ footer {
         font-size: 2.5rem; /* Ukuran lebih kecil di tablet */
     }
 
+    .profile-img-fallback {
+        width: 12rem; /* Ukuran lebih kecil untuk tablet */
+        height: 12rem; /* Tinggi disesuaikan dengan lebar untuk menjaga lingkaran */
+    }
+
+    .profile-img-fallback span {
+        font-size: 4rem; /* Ukuran inisial lebih kecil untuk tablet */
+    }
+
 }
 
 @media (max-width: 480px) {
@@ -736,5 +770,14 @@ footer {
     .skills-section .list-icons .list-inline-item i {
         font-size: 2rem; /* Ukuran lebih kecil lagi di HP */
         margin: 0.3rem;
+    }
+
+    .profile-img-fallback {
+        width: 10rem; /* Ukuran lebih kecil lagi untuk mobile */
+        height: 10rem; /* Tinggi disesuaikan dengan lebar untuk menjaga lingkaran */
+    }
+
+    .profile-img-fallback span {
+        font-size: 3rem; /* Ukuran inisial lebih kecil lagi untuk mobile */
     }
 }
